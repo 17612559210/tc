@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="xiangmucss.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<link rel="stylesheet" href="swiper/css/swiper.css">
+	<script src="jquery/jquery-1.7.js"></script>
+	<script src="xiangmujs.js"></script>
+	<script src="swiper/js/swiper.js">
+	</script>
+	<script src="datasJS/datasServer.js"></script>
+</head>
+<body>
+<!-- 顶部 -->
+	<div class="a">
+		<div>
+			<div>
+				欢迎光临网博图书网
+				<a href="">请登录</a>
+				<a href="">免费注册</a>
+			</div>
+			<div class="adiv1">
+				<p><a href="">购物车</a></p>
+				<p><a href="">我的订单</a></p>
+				<!-- <a href="">个人账户</a> -->
+				<ul class="ul1">
+					<p class="p1">
+						<a href="">个人账户<i class="icon iconfont icon-jiantouarrow486"></i></a>
+					</p>
+						<li><a href="">个人信息</a></li>
+						<li><a href="">收货地址</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 搜索框 -->
+	<div class="b">
+		<div class="b1">
+		<img src="img/logo.png" alt="">
+		</div>
+		<div>
+		<input type="text" class="input1"><input type="submit" value="搜索" class="input2">
+		<p class="bp"><a href="">史蒂芬霍金 / </a> <a href="">刺杀骑士团长 / </a><a href="">蒙台梭利育儿全书 / </a> <a href="">阿加莎克里斯蒂</a></p>
+		</div>
+		<div>
+			<img src="img/tip.png" alt="">
+		</div>
+	</div>
+	<!-- 图书分类 -->
+	<div class="c">
+		<div class="cdiv1">
+			图书分类
+		</div>
+		<div class="cdiv2">
+			<ul>
+				<li><a href="" style="color:#ff5000">首页</a></li>
+				<li><a href="#ts">淘书团</a></li>
+				<li><a href="#cx">畅销榜</a></li>
+				<li><a href="#xs">新上架</a></li>
+				<li><a href="#pt">平台自营</a></li>
+				<li><a href="#cb">出版社直销</a></li>
+			</ul>
+		</div>	
+	</div>
+	<hr color="#ff5000" size="5px">
+	<!-- 隐藏显示DIV -->
+	<div class="d">
+		<div class="ind">
+		<div class="ind1">
+			<div class="ddiv1"></div>
+			<div class="ind2">
+				<a href="">全部商品分类.....</a>
+			</div>
+		</div>
+			<div class="imgdiv">
+				<img src="img/recomend.png" alt="">
+			</div>
+		</div>
+		<div class="hiddens"></div>
+		<div class="ddiv2">
+			<div class="swiper-container">
+				<div class="swiper-wrapper"></div>
+				<div class="swiper-pagination" id="m"></div>
+				<div class="swiper-button-next" id="l">></div>
+				<div class="swiper-button-prev" id="r"><</div>
+			</div>
+			<div class="ddiv2l">
+				<div class="dochange">
+					<div class="ddddiv1" name="guessLikes"><a class="ddddiv1a">猜你喜欢</a></div><div class="ddddiv2" name="recommend"><a class="ddddiv2a">本周精选</a></div><div class="ddddiv3" name="selected"><a class="ddddiv3a">主编推荐</a></div>
+				</div>
+				<div class="dddiv2lall">
+					<div class="dddiv2l">
+						<div class="ddddiv2linl"></div>
+						<div class="ddddiv2linr"></div>
+					</div>
+					<div class="dddiv2rr">
+						
+					</div>
+				</div>
+			</div>
+			<div class="div3">
+				<div class="ddiv2m" id="cx">图书畅销榜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:12px;color:black;">更多>></span></div>
+				<div class="ddiv2r"></div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- 三图 -->
+	<div class="e">
+		<div>
+			<img src="img/special/special01.jpg" alt="">
+		</div>
+		<div>
+			<img src="img/special/special02.jpg" alt="">
+		</div>
+		<div>
+			<img src="img/special/special03.jpg" alt="">
+		</div>
+	</div>
+	<!-- 淘书团 -->
+	<div class="f">
+		<div class="fdiv3">
+			<div class="fdiv1" id="ts">淘书团热销</div>
+			<div class="fdiv2"><a href="">查看更多商品>></a></div>
+		</div>
+		<div class="fdiv4"></div>
+	</div>
+	<!-- 新书上架 -->
+	<div class="g">
+		<div class="gdiv1">
+			<div class="gdiv2" id="xs">新书上架促销</div>
+			<div class="gdiv3"><a href="">查看更多商品>></a></div>
+		</div>
+	</div>
+	<!-- 平台自营 -->
+	<div class="h">
+		<div class="hdiv1">
+			<div class="hdiv1l" id="pt">平台自营</div>
+			<div class="hdiv1r"></div>
+		</div>
+		<!-- 平台左侧 -->
+		<div class="hdiv2">
+			<div class="hdiv2l">
+				<div class="hddiv1l">自营好书推荐</div>
+			</div>
+			<div class="hdiv2r"></div>
+		</div>
+	</div>
+	<!-- 出版社直销 -->
+	<div class="i">
+		<div class="idiv1" id="cb">出版社直销</div>
+		<div class="idiv2">
+			<div class="idivout">
+				<div class="idiv3">
+					<div class="idiv3-1"></div>
+				</div>
+				<div class="idiv3-2">
+					<div class="fontup"><i class="icon iconfont icon-icon_arrow_top"></i></div>
+					<div class="fontdown"><i class="icon iconfont icon-icon_arrow_bottom"></i></div>
+					<!-- <button value=""><i class="icon iconfont icon-icon_arrow_bottom"></i></button> -->
+				</div>
+			</div>
+			<div class="idiv4"></div>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<div class="j">
+		<div class="jdiv1">&copy; 2018 南京网博优壹 by 项目组-tc
+		</div>
+		<div class="jdiv2">2018年06月4日10:11:00
+		</div>
+	</div>
+</body>
+
+</html>

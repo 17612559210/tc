@@ -1,0 +1,10 @@
+bookTypes  图书分类
+slides  轮播图
+guessLikes  猜你喜欢
+selected  本周精选
+recommend  主编推荐
+bestSelling	 畅销榜
+taoshutuan  淘书团
+newbooks  新书上架
+selfSupport  平台自营
+pressList  出版社直销

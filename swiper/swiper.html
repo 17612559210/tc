@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/swiper.css">
+	<script src="./js/swiper.js"></script>
+	<style>
+	.swiper-slide img{
+		width:100%;
+	}
+	</style>
+</head>
+<body>
+	<!-- 定义swiper在页面的显示位置 -->
+	<div class="swiper-container">
+		<!-- 定义轮播元素的展位区域 -->
+		<div class="swiper-wrapper">
+		<!-- 定义轮播图片 -->
+			<div class="swiper-slide">
+				<img src="./slides/slides01.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="./slides/slides02.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="./slides/slides03.jpg" alt="">
+			</div>
+		</div>
+		<!-- 分页器 -->
+		<div class="swiper-pagination"></div>
+		<!-- 前进后退箭头 -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+	</div>
+
+</body>
+<script>
+	new Swiper(".swiper-container",{
+		autoplay:true,
+		loop:true,
+		pagination:{
+			el:".swiper-pagination"
+		},
+		navigation:{
+			nextEl:".swiper-button-next",
+			prevEl:".swiper-button-prev"
+		}
+	})
+</script>
+</html>
